@@ -1,5 +1,5 @@
   let page = document.getElementById('buttonDiv');
-  const kButtonColors = ['black', 'lightgrey', 'yellow', 'teal'];
+  const kButtonColors = ['black', 'lightgrey', 'yellow', 'teal','#f33e94'];
   function constructOptions(kButtonColors) {
     for (let item of kButtonColors) {
       let button = document.createElement('button');
